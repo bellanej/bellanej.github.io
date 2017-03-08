@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vad är du sugen på?</title>
+	<link rel="icon" type="image/png" href="http://pix.iemoji.com/images/emoji/apple/ios-9/256/unicorn-face.png" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="what-to-eat.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+</head>
+<body>
+<div id="mainDiv" class="container-fluid">
+	<h1 class="text-uppercase">Vad är du sugen på? </h1>
+	<h2>Klicka på valfri kategori nedan för ett förslag</h2>
+	<div id="recipeContainer" class="list-inline">
+	
+	<div id="veggiRecipe" class="recipe text-uppercase">Vegetariskt
+		<div class="hiddenRecipe">Spagetti med vegofärssås
+			<img class="img-circle  bounceIn animated" src="http://i.dailymail.co.uk/i/pix/2016/11/01/20/39F65C7700000578-3893036-image-m-85_1478030505566.jpg" alt="smallAvocado">	
+		</div>
+		<div class="hiddenRecipe">Kikärtsbiffar med potatismos
+			<img class="img-circle  bounceIn animated" src="http://i.dailymail.co.uk/i/pix/2016/11/01/20/39F65C7700000578-3893036-image-m-85_1478030505566.jpg" alt="smallAvocado">	
+		</div>
+		<div class="hiddenRecipe">Lasagne med linser
+			<img class="img-circle  bounceIn animated" src="http://i.dailymail.co.uk/i/pix/2016/11/01/20/39F65C7700000578-3893036-image-m-85_1478030505566.jpg" alt="smallAvocado">	
+		</div>
+		<div class="hiddenRecipe">Marinerade quornfiléer med klyftpotatis
+			<img class="img-circle  bounceIn animated" src="http://i.dailymail.co.uk/i/pix/2016/11/01/20/39F65C7700000578-3893036-image-m-85_1478030505566.jpg" alt="smallAvocado">	
+		</div>
+		<div class="hiddenRecipe">Champinjonsoppa med vitlöksbröd
+			<img class="img-circle  bounceIn animated" src="http://i.dailymail.co.uk/i/pix/2016/11/01/20/39F65C7700000578-3893036-image-m-85_1478030505566.jpg" alt="smallAvocado">	
+		</div>
+	</div>
+
+	<div id="veganRec" class="recipe text-uppercase">Veganskt
+		<div class="hiddenRecipe">Grönsakssoppa
+			<img class="img-circle  bounceIn animated" src="https://images.food52.com/_LwXdyrwgH32wWJJjJNweHxHoBc=/400x400/b493272b-c07e-4b85-8c62-a22c1b247985--956f43e1d19782651f178f26160d698f.png" alt="smallCarrot">	
+		</div>
+		<div class="hiddenRecipe">Veganburgare med sojaost och kikärtsaioli
+			<img class="img-circle  bounceIn animated" src="https://images.food52.com/_LwXdyrwgH32wWJJjJNweHxHoBc=/400x400/b493272b-c07e-4b85-8c62-a22c1b247985--956f43e1d19782651f178f26160d698f.png" alt="smallCarrot">	
+		</div>
+		<div class="hiddenRecipe">Palak paner med friterad tofu
+			<img class="img-circle  bounceIn animated" src="https://images.food52.com/_LwXdyrwgH32wWJJjJNweHxHoBc=/400x400/b493272b-c07e-4b85-8c62-a22c1b247985--956f43e1d19782651f178f26160d698f.png" alt="smallCarrot">	
+		</div>
+		<div class="hiddenRecipe">Vietnamesiska sommarrullar
+			<img class="img-circle  bounceIn animated" src="https://images.food52.com/_LwXdyrwgH32wWJJjJNweHxHoBc=/400x400/b493272b-c07e-4b85-8c62-a22c1b247985--956f43e1d19782651f178f26160d698f.png" alt="smallCarrot">	
+		</div>
+		<div class="hiddenRecipe">Fooled pork med jackfruit
+			<img class="img-circle  bounceIn animated" src="https://images.food52.com/_LwXdyrwgH32wWJJjJNweHxHoBc=/400x400/b493272b-c07e-4b85-8c62-a22c1b247985--956f43e1d19782651f178f26160d698f.png" alt="smallCarrot">	
+		</div>
+	</div>
+
+	<div class="recipe text-uppercase" id="fishRecipe">Fisk
+		<div class="hiddenRecipe" id="fileNotFound1">HTTP 404, file not found
+			<img class="img-circle bounceIn animated" id="smallFishy" src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/fish.png" alt="smallFishy">
+		<br>Upsi, men prova någon annan kategori</div>
+	</div>
+
+	<div class="recipe text-uppercase" id="meatRecipe">Kött
+		<div class="hiddenRecipe" id="fileNotFound2">HTTP 404, file not found
+			<img class="img-circle bounceIn animated" id="smallCowy" src="https://www.emojibase.com/resources/img/emojis/apple/x1f42e.png.pagespeed.ic.ceWx46jxCC.png" alt="smallCowy">
+		<br>Upsi, men prova någon annan kategori</div>
+	</div>
+
+	<div class="recipe text-uppercase" id="birdRecipe">Fågel
+		<div class="hiddenRecipe" id="fileNotFound3">HTTP 404, file not found
+			<img class="img-circle bounceIn animated" id="smallBirdy" src="http://emojipedia-us.s3.amazonaws.com/cache/7a/38/7a382efa8d5ca07fd46bee4a3146c253.png" alt="smallBirdy">
+		<br>Upsi, men prova någon annan kategori</div>
+	</div>
+	</div>
+
+	<div id="slumpedRecipe" class="container-fluid"></div>
+</div>
+<footer class="text-uppercase">&copy; 2017 Bellan E Johansson <address>Mejla mig&nbsp;<a href="mailto:erika.b.johansson@gmail.com">Bellan Johansson</a>&nbsp;Malmö</address>
+</footer>
+<!-- Latest compiled and minified JavaScript -->
+<script type="text/javascript" src="../external-libs/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="whatToEat.js"></script>
+</body>
+</html>
